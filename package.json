@@ -1,0 +1,34 @@
+{
+  "name": "mutual-selection-system-master",
+  "version": "1.0.0",
+  "private":true,
+  "description": "> 硕导双选系统，为研究生(Postgraduate )和导师 (Postgraduate Tutor)提供双向选择的服务。",
+  "main": "babel.config.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.15.2",
+    "element-ui": "^2.15.3",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.14",
+    "vue-puzzle-vcode": "^1.1.5",
+    "vue-router": "^3.5.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "sass": "^1.35.2",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "author": "WH",
+  "license": "ISC"
+}
